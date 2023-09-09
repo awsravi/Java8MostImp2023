@@ -9,7 +9,7 @@ import java.util.stream.Collectors;
 public class WordCountRemoveSpecialchars {
 
 	public static void main(String[] args) {
-
+		//walking tree
 		String sentence = "my name is Ravi, Ravi is good in java and also, ravi is coding.";
 
 		List<String> lstr = Arrays.asList(sentence.split(" "));
