@@ -9,9 +9,5 @@ public class Count1s0sUsingstreams {
 		
 		Integer[] arr= {1,0,1,0,0,1,1,1,0};
 		List<Integer> list=Arrays.asList(arr);
-		Integer sum=list.stream().reduce(0,Integer::sum);
-		System.out.println("numbers of 1s :"+sum);
-		System.out.println("no of 0s :"+(list.size()-sum));
-		
 	}
 }
