@@ -10,7 +10,7 @@ public class AddTotalsumArray {
 		Integer sum = listarr.stream().reduce(0, Integer::sum);
 		System.out.println(sum);
 
-		// multi
+//add sum 
 
 		List<Integer> mulsum = listarr.stream().map(n -> n + sum).collect(Collectors.toList());
 		System.out.println(mulsum);
